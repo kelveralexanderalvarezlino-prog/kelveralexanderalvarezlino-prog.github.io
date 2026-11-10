@@ -8,7 +8,7 @@
       .box {
         width: 70px;
         height: 70px;
-        background-color: teal;
+        background-color: rgb(23, 228, 235);
         font-size: 300%;
         text-align: center;
         user-select: none;
@@ -55,8 +55,8 @@
         box.on("click", handleBoxClick);
 
         // moves the Box to a new position on the screen along the X-Axis
-        function moveBoxTo(newPositionX) {
-          box.css("left", newPositionX);
+        function moveBoxTo(boardWidth) {
+          box.css("Rigth", 500);
         }
 
         // changes the text displayed on the Box
@@ -80,7 +80,7 @@
          * Each time it is called, it should move the Box to a new location.
          * If the box drifts off the screen, turn it around!
          */
-        function update(boardWidth) {
+        function moveBoxTo(Rigth) {
 
         
 
